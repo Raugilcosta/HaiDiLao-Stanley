@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanley's Discount Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stanley's Discount Wheel</h1>
+        <p id="message">You can get one of the discounts today. Spin the wheel and try your luck!</p>
+        
+        <div class="layout">
+            <!-- Lista à esquerda -->
+            <ul class="items-list">
+                <li>10% Off</li>
+                <li>20% Off</li>
+                <li>30% Off</li>
+                <li>50% Off</li>
+            </ul>
+
+            <!-- Roleta -->
+            <div class="wheel-container">
+                <div class="wheel" id="wheel">
+                    <div class="segment">10% Off</div>
+                    <div class="segment">20% Off</div>
+                    <div class="segment">30% Off</div>
+                    <div class="segment">50% Off</div>
+                </div>
+                <div class="pointer"></div>
+            </div>
+        </div>
+
+        <button id="spinButton" onclick="spinWheel()">Spin the Wheel</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
