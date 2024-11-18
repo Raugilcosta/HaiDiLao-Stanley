@@ -3,38 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stanley's Discount Wheel</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Wheel - HaiDiLao Hotpot Brentwood</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>HaiDiLao Hotpot Brentwood</h1>
+    </header>
     <div class="container">
-        <h1>Stanley's Discount Wheel</h1>
-        <p id="message">You can get one of the discounts today. Spin the wheel and try your luck!</p>
-        
-        <div class="layout">
-            <!-- Lista à esquerda -->
-            <ul class="items-list">
-                <li>10% Off</li>
-                <li>20% Off</li>
-                <li>30% Off</li>
-                <li>50% Off</li>
+        <section class="prizes-section">
+            <h2>Available Prizes</h2>
+            <ul id="prizes-list">
+                <li>Prize 1: Discount Coupon</li>
+                <li>Prize 2: Free Beverage</li>
+                <li>Prize 3: Special Dessert</li>
+                <li>Prize 4: VIP Table Experience</li>
+                <li>Prize 5: Surprise Gift</li>
             </ul>
-
-            <!-- Roleta -->
-            <div class="wheel-container">
-                <div class="wheel" id="wheel">
-                    <div class="segment">10% Off</div>
-                    <div class="segment">20% Off</div>
-                    <div class="segment">30% Off</div>
-                    <div class="segment">50% Off</div>
-                </div>
-                <div class="pointer"></div>
-            </div>
-        </div>
-
-        <button id="spinButton" onclick="spinWheel()">Spin the Wheel</button>
-        <div class="result" id="result"></div>
+        </section>
+        <section class="whatsapp-section">
+            <h2>Join Our WhatsApp Group</h2>
+            <a class="button" href="https://chat.whatsapp.com/BoT1CvBGmVZDPuDa3xx2RN" target="_blank">Join the Group</a>
+        </section>
+        <section class="wheel-section">
+            <h2>Spin the Wheel</h2>
+            <iframe id="roulette-frame" src="https://wheelofnames.com/3at-57j"></iframe>
+        </section>
     </div>
+    <footer>
+        <p>© 2024 HaiDiLao Hotpot Brentwood</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
